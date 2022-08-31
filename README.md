@@ -13,7 +13,27 @@ A sample output of running the application can be seen below.
 
 The web-application is currently being hosted on Heroku, and can be accessed here: https://sketch-generator-py.herokuapp.com/
 
+<h4>Running SketchGeneratorPy Locally</h4>
 
+<p>Clone my repository</p>
 
+```python
+$ git clone https://github.com/peter-w-bryant/SketchGeneratorPy.git
+```
+<p>Create + activate virtual environment</p>
 
+```python
+$ python -m venv ./env
+$ env/Scripts/activate
+```
+<p>Install all dependencies</p>
 
+```python
+$ pip install -r requirements.txt
+```
+
+<p>Run the app and start your local server</p>
+
+```python
+$ python app.py
+```
