@@ -14,10 +14,10 @@ body {
 .main-form {
     width: 800px;
     margin: auto;
-    background-color: rgb(0, 0, 0, 0.7);
+    background-color: rgba(143, 143, 143, 0.813);
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     color: #FFFFFF;
 }
 img {
