@@ -3,7 +3,8 @@ import os
 from werkzeug.utils import secure_filename
 from flask import Flask, request, render_template
 
-UPLOAD_FOLDER = 'C:/Users/pwbry/OneDrive/Desktop/Documents/Projects/SketchGeneratorPy/static/uploads'
+# UPLOAD_FOLDER = 'C:/Users/pwbry/OneDrive/Desktop/Documents/Projects/SketchGeneratorPy/static/uploads'
+UPLOAD_FOLDER = '/static/uploads'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
 
 app = Flask(__name__)                       # Define flask app
